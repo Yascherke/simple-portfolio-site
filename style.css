@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.welcome-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5em;
+}
+
+#ava-icon {
+    width: 64px;
+    height: 64px;
+}
+
+.head-part {
+    font-size: 24px;
+    color: #444444;
+}
+
+#text-part {
+    font-size: 16px;
+    color: #999999;
+}
+
+#contact-link {
+    color: #444444;
+    font-size: 24px;
+}
+
+.see-btn {
+    color: #444444;
+}
+
+#d-btn {
+    color: #999999;
+}
+
+.content {
+    margin-top: 10em;
+}
+
+.last-projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.concept-ctg {
+    margin-top: 10em;
+}
+
+.concept-ctg h3 {
+    color: #444444;
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.b-item {
+    margin: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.b-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.expirience {
+    margin-top: 10em;
+}
+
+.expirience-collec {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.exp-item {
+    margin-right: 8em;
+    margin-bottom: 3em;
+}
+
+.exp-item:last-child {
+    margin-left: 2em;
+    margin-bottom: 3em;
+}
+
+.exp-item h3 {
+    color: #444444;
+}
+
+.exp-item p {
+    color: #666666;
+}
+
+.exp-item sub {
+    color: #999999;
+}
+
+.form {
+    margin-top: 8em;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2em;
+    padding-top: 1em;
+    background: #E5E5E5;
+}
+
+.form-item p {
+    margin-bottom: 0.5em;
+    color: #444444;
+}
+
+.form-item input {
+    width: 100%;
+    height: 2em;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #999999;
+    border: 1px solid #999999;
+}
+
+#f-detail input {
+    height: 5em;
+}
+
+#submit-btn {
+    margin-top: 1em;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form h3 {
+    color: #444444;
+}
+
+.form sub {
+    color: #999999;
+}
+
+.links-footer {
+    float: right;
+    display: inline ;
+    margin-top: 1em;
+
+}
+
+.links-footer a {
+    color: #666666;
+    text-decoration:  none;
+}
+
+footer p {
+    float: left;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .welcome-part {
+        font-size: xx-large;
+    }
+
+    .last-projects {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .last-projects img {
+        width: 100%;
+    }
+    
+    .project {
+        margin-bottom: 5em;
+        padding-bottom: 0.5em;
+        font-size: x-large;
+    }
+
+    .project p {
+        color: #999999;
+    }
+
+    .project h3 {
+        color: #444444;
+    }
+
+    .concept-ctg h3 {
+        font-size: xx-large;
+        margin-top: -5em;
+    }
+
+    .board {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .b-item {
+        margin-bottom: 3em;
+        display: flex;
+    }
+
+    .b-item img {
+        width: 100%;
+        height: 100%;
+        margin-top: 10em;
+        margin-bottom: 8em;
+    }
+
+    .expirience {
+        margin-top: 5em;
+        font-size: xx-large;
+    }
+
+    .expirience-collec {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .exp-item:last-child {
+        margin-left: 0em;
+        margin-bottom: 0em;
+    }
+    
+    .form {
+        border: none;
+        font-size: x-large;
+    }
+    
+    footer p {
+        float: none;
+        text-align: center  ;
+    }
+
+    .links-footer {
+        width: 100%;
+        margin-bottom: 2em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+}
